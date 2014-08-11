@@ -12,8 +12,6 @@ Let's say you have the following text, and you need to have a max line length of
 
 ```
 Jean shorts you probably haven't heard of them farm-to-table.
-
-Another line.
 ```
 
 The result would be:
@@ -23,8 +21,6 @@ Jean shorts you
 probably haven't
 heard of them
 farm-to-table.
-
-Another line
 ```
 
 Lines should not have trailing spaces.
