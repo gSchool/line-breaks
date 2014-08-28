@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require_relative '../lib/line_breaker'
+filename = File.expand_path('../../data/awesome-sauce.txt', __FILE__)
+puts filename
+
+awesome_sauce = File.read(filename)
+
+puts LineBreaker.new(awesome_sauce).format
